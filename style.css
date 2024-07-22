@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: midnightblue;
+    color: aliceblue;
+    user-select: none;
+}
+
+
+.main{
+    display: flex
+
+}
+
+
+.left h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.money-image {
+    width: 200px;
+}
+
+.money-image {
+
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.money-image:active {
+    opacity: 0.8;
+    transform: scale(1.02);
+}
